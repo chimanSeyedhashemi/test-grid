@@ -81028,6 +81028,8 @@ var Actions = /** @class */ (function (_super) {
     return Actions;
 }(React.Component));
 
+// import "../styles/GridStyle.scss"
+// import '../styles/GridStyle.css'
 var Grid = /** @class */ (function (_super) {
     __extends(Grid, _super);
     function Grid(props) {
@@ -81137,7 +81139,11 @@ var CattodGrid = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CattodGrid.prototype.render = function () {
-        return React.createElement(Grid, { columnDef: this.props.columnDef, dataRow: this.props.dataRow, actions: this.props.actions, rowNumber: this.props.rowNumber, height: this.props.height, message: this.props.message });
+        return (
+        // <div className={cx(styles.Alert)}>
+        React.createElement(Grid, { columnDef: this.props.columnDef, dataRow: this.props.dataRow, actions: this.props.actions, rowNumber: this.props.rowNumber, height: this.props.height, message: this.props.message })
+        // </div>
+        );
     };
     return CattodGrid;
 }(React.Component));

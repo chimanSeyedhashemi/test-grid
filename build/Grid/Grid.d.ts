@@ -1,11 +1,6 @@
 import * as React from "react";
-import 'ag-grid-community/dist/styles/ag-grid.css';
-import 'ag-grid-community/dist/styles/ag-theme-balham.css';
-import "@ag-grid-community/all-modules/dist/styles/ag-grid.css";
-import "@ag-grid-community/all-modules/dist/styles/ag-theme-bootstrap.css";
 import { ICatodcolumnDefs, ICattodGridProps, ICattodGridState } from "./Models";
 import { GridApi, ColumnApi } from '@ag-grid-community/core';
-import "../styles/GridStyle.scss";
 export default class Grid<T> extends React.Component<ICattodGridProps<T>, ICattodGridState<T>> {
     gridApi: GridApi | null | undefined;
     gridColumnApi: ColumnApi | null | undefined;
