@@ -3,13 +3,13 @@ import commonjs from "rollup-plugin-commonjs";
 import external from "rollup-plugin-peer-deps-external";
 import resolve from "rollup-plugin-node-resolve";
 import postcssModules from 'postcss-modules';
-import sass from 'rollup-plugin-sass';
+//import sass from 'rollup-plugin-sass';
 //  import css from 'rollup-plugin-css-only';
  import postcss from 'rollup-plugin-postcss';
- import simplevars from 'postcss-simple-vars';
-  import nested from 'postcss-nested';
-  import cssnext from 'postcss-cssnext';
- import cssnano from 'cssnano';
+//  import simplevars from 'postcss-simple-vars';
+//   import nested from 'postcss-nested';
+//   import cssnext from 'postcss-cssnext';
+//  import cssnano from 'cssnano';
 //  import css from 'rollup-plugin-css-porter';
 //  import scss from 'rollup-plugin-scss'
 
