@@ -6,7 +6,7 @@ import {ICattodGridProps, IMessage,ICatodcolumnDefs , ICatodActions} from "./Gri
 // import 'ag-grid-community/dist/styles/ag-theme-balham.css';
 // import "@ag-grid-community/all-modules/dist/styles/ag-grid.css";
 // import "@ag-grid-community/all-modules/dist/styles/ag-theme-bootstrap.css";
- import  "./GridStyle.scss"
+ // import  "./Grid/GridStyle.scss"
 //import './style.css'
 
 // const cx = cn.bind(styles);
@@ -35,3 +35,12 @@ export class CattodGrid<T> extends React.Component<ICattodGridProps<T>> {
     ) ;
   }
 }
+
+// import * as React from "react";
+// import {ExamplC} from "./Grid/ExampleC"
+
+// export class Example extends React.Component<{text:string}>{
+// render() {
+// return<ExamplC text={this.props.text}/>
+// }
+// }

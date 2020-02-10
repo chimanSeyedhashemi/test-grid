@@ -1,6 +1,5 @@
 import * as React from "react";
 import { ICattodGridProps, IMessage, ICatodcolumnDefs, ICatodActions } from "./Grid/Models";
-import "./GridStyle.scss";
 export interface CattodGridProps<T> extends ICattodGridProps<T> {
 }
 export interface Message extends IMessage {

@@ -81028,8 +81028,6 @@ var Actions = /** @class */ (function (_super) {
     return Actions;
 }(React.Component));
 
-// import "../styles/GridStyle.scss"
-// import '../styles/GridStyle.css'
 var Grid = /** @class */ (function (_super) {
     __extends(Grid, _super);
     function Grid(props) {
@@ -81147,6 +81145,13 @@ var CattodGrid = /** @class */ (function (_super) {
     };
     return CattodGrid;
 }(React.Component));
+// import * as React from "react";
+// import {ExamplC} from "./Grid/ExampleC"
+// export class Example extends React.Component<{text:string}>{
+// render() {
+// return<ExamplC text={this.props.text}/>
+// }
+// }
 
 exports.CattodGrid = CattodGrid;
 //# sourceMappingURL=index.js.map

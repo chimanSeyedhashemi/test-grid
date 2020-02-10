@@ -1,16 +1,11 @@
 import * as React from "react";
-//  import 'ag-grid-community/dist/styles/ag-grid.css';
-// import 'ag-grid-community/dist/styles/ag-theme-balham.css';
-// import "@ag-grid-community/all-modules/dist/styles/ag-grid.css";
-// import "@ag-grid-community/all-modules/dist/styles/ag-theme-bootstrap.css";
 import { AgGridReact } from 'ag-grid-react';
 import { AllCommunityModules, GridReadyEvent } from "@ag-grid-community/all-modules";
 import { ICatodcolumnDefs, IAgColumnDefs,ICattodGridProps ,ICattodGridState} from "./Models"
-
 import { GridApi, ColumnApi } from '@ag-grid-community/core';
 import {Actions} from "./Actions"
-// import "../styles/GridStyle.scss"
-// import '../styles/GridStyle.css'
+    import  "./GridStyle.scss"
+
 export default class Grid<T> extends React.Component<ICattodGridProps<T>,ICattodGridState<T>> {
     gridApi: GridApi | null | undefined;
     gridColumnApi: ColumnApi | null | undefined;
@@ -124,7 +119,8 @@ export default class Grid<T> extends React.Component<ICattodGridProps<T>,ICattod
 
     return (
         <div
-        className="ag-theme-bootstrap parent-style">
+        className="ag-theme-bootstrap parent-style"
+        >
         <div className="catod-container" 
         style={{ height: this.state.height }}
         >
